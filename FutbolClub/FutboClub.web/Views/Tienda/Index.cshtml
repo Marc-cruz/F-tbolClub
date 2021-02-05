@@ -1,0 +1,14 @@
+﻿@model List<FutboClub.web.Models.TiendaModel>
+@{
+    ViewBag.Title = "FC Nación";
+}
+
+<h3>Tienda</h3>
+
+@foreach (var tienda in Model)
+{
+   <p>@tienda.Descripcion</p>
+}
+
+
+
