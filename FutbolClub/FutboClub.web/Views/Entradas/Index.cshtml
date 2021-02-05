@@ -1,0 +1,11 @@
+﻿@model List<FutboClub.web.Models.EntradasModel>
+@{
+    ViewBag.Title = "FC Nación";
+}
+
+<h2>Entradas</h2>
+
+@foreach (var entradas in Model)
+{
+    <p>@entradas.Descripcion </p>
+}
